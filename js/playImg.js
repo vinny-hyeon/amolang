@@ -2,6 +2,8 @@
 var btn = document.getElementById("heartTxt");
 btn.style.opacity = 0;
 var btnVal = 0;
+var audio = new Audio("./assets/love_song.mp3");
+audio.loop = true;
 
 function showImage(){
 	//document.getElementById("imgTxt").style.opacity = 0;
@@ -15,6 +17,8 @@ function showImage(){
 }
 
 function play(){
+  audio.play();
+  
 	if(t == 0){
 		myImage.setAttribute("src", "");
 		myTxt.innerHTML = "";
