@@ -6,5 +6,11 @@
   "dependencies": {
     "gh-pages": "^6.0.0"
   },
-  "homepage": "https://vinny-hyeon.github.io/amolang/"
+  "homepage": "https://vinny-hyeon.github.io/amolang/",
+  "name": "amolang",
+  "description": "amolang world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
