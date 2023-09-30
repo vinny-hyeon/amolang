@@ -113,7 +113,7 @@
   position: absolute;
   display: table;
   vertical-align: middle;
-  top: 25%;
+  top: 30%;
   left: 0;
   right: 0;
   margin: auto;
@@ -129,7 +129,7 @@
   width: 100%;
   height: 100%;
   max-width: 400px;
-  max-height: 500px;
+  max-height: 40vh;
   background-size: cover;
 }
 
@@ -147,4 +147,16 @@
   width: 100%;
   text-align: center;
   color: white;
+}
+
+#footer {
+  padding: 0 10px;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+}
+
+#footerTxt {
+  text-align: right;
 }
