@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta charset="UTF-8" />
+    <title>Amolang love</title>
+    <link rel="stylesheet" type="text/css" href="./css/format.css" />
+  </head>
+  <body style="margin: 0px">
+    <audio autoplay loop>
+      <source src="music/love_song.mp3" type="audio/mp3" />
+      오디오 미지원
+    </audio>
+    <canvas></canvas>
+    <div id="imgTxt">
+      <span id="Txt"></span> <br />
+      <span id="tmp"></span>
+      <img id="img" src="" />
+    </div>
+    <div id="heartTxt">
+      <span id="clickMe">꿍릭!</span>
+      <div id="heart">
+        <button id="button" onclick="play()"></button>
+      </div>
+    </div>
+    <div id="content">
+      <h1 id="header">사랑하는 천송희의 28번째 생일을 축하합니다.</h1>
+      <h2 id="together">우리가 함께한지</h2>
+      <div id="timer">
+        <b id="d"></b> Days <b id="h"></b> Hours <b id="m"></b> Minutes
+        <b id="s"></b> Seconds
+      </div>
+    </div>
+
+    <div id="typeDiv">
+      <span id="txt1"></span> <br />
+      <span id="txt2"></span>
+    </div>
+
+    <script>
+      var ok = 0;
+      var flag = 1;
+      var myImage = document.getElementById("img");
+      var myTxt = document.getElementById("Txt");
+      var imageArray = [
+        "../pic/pic1.jpeg",
+        "../pic/pic2.jpeg",
+        "../pic/pic3.jpeg",
+        "../pic/pic4.jpeg",
+        "../pic/pic5.jpeg",
+        "../pic/pic6.jpeg",
+        "../pic/pic7.jpeg",
+        "../pic/pic8.jpeg",
+        "../pic/pic9.jpeg",
+        "../pic/pic11.jpeg",
+        "../pic/pic20.jpeg",
+        "../pic/pic21.jpeg",
+        "../pic/pic22.jpeg",
+        "../pic/pic25.gif",
+        "../pic/pic26.gif",
+        "../pic/pic27.gif",
+        "../pic/pic28.gif",
+        "../pic/pic29.gif",
+      ];
+      var imageIndex = 0;
+      var txtArray = [
+        "즐거운 추석 보냈어~?",
+        "생일 선물로 이쁜 송희 사진이당 ㅎㅎ",
+        "나는야 청계산 알코올 다람쥐!!",
+        "섹시한 송희 ❤️",
+        "분홍색이 잘어울리는 껑이",
+        "이쁘고 귀엽지만 이쁜줄 모르는 깡이",
+        "그냥 대충 찍은 사진이 이렇게 이쁘다니?!",
+        "사진 작가분도 연예인인줄 알았다는 소문이...!",
+        "북극곰이 질투하는 귀염둥이 꿍이!!",
+        "내가 젤 좋아하는 송희의 일본사진! 그래도 실물의 10%도 못담았다 ㅠㅠ 내년에는 꼭 해외여행 같이 가자",
+        "다음은 꿍이의 전시회~!",
+        "우리는 열공 다람지 커플!!",
+        "꿍카소와 꿍 고흐!",
+        "아르르르르르르르르!!",
+        "별이 빛나는 밤에 별빛 청하를 마시구 취한 송이",
+        "공부하는척 꿍버워치를 하는 꿍이!!",
+        "겨울잠에서 일어난 재잘재잘 수다 다람지~",
+        "여행가서 졸림지옥에 빠져버린 꿍이지~!",
+      ];
+      var len = imageArray.length;
+      var t = 0;
+    </script>
+
+    <script type="text/javascript" src="./js/stars.js"></script>
+    <script type="text/javascript" src="./js/typeWriter.js"></script>
+    <script type="text/javascript" src="./js/date.js"></script>
+    <script type="text/javascript" src="./js/playImg.js"></script>
+  </body>
+</html>
